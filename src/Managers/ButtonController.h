@@ -6,6 +6,8 @@
 #include <memory>
 #include <functional>
 
+#include <SFML/Graphics.hpp>
+
 namespace sen {
 	class Button;
 

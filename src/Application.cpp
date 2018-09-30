@@ -20,7 +20,7 @@ void Application::init(sf::RenderWindow * window)
 	s_window = window;
 	s_timer.restart();
 
-	s_defaultFont = sen::CacheSystem::get<sf::Font>("res/Fonts/Roboto.ttf");
+	s_defaultFont = sen::CacheSystem::getFont("res/Fonts/Roboto.ttf");
 	s_initialWindowSize = s_window->getSize();
 }
 

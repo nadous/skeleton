@@ -1,0 +1,12 @@
+BasedOnStyle: Chromium
+AlignTrailingComments: true
+AllowShortFunctionsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+ColumnLimit: 0
+---
+Language: Cpp
+# Force pointers to the type for C++.
+DerivePointerAlignment: false
+PointerAlignment: Left
